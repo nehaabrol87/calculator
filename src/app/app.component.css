@@ -1,19 +1,28 @@
+.app__header {
+  text-align: center;
+ }
+
 .app__wrapper {
   display: flex;
   flex-direction: column;
   margin: 10px;
   border: 2px solid grey;
+  max-width: 400px;
+  margin: 10px auto;
+  border-radius: 5px;
 }
 
-.app-display__wrapper {
+.app-result__wrapper {
   padding: 5px;
   flex: 1 0 50px;
-  max-height: 50px;
+  background-color: black;
+  color: white;
+  font-size: 24px;
+  align-content: left;
+  text-align: right;
 }
 
 .app-choices__wrapper {
-  padding: 5px;
-  flex-grow: 2;
-  flex-shrink: 0;
-  max-height: 400px;
+  flex: 2 0 200px;
 }
+
