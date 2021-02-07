@@ -1,0 +1,30 @@
+.operators__wrapper, .helperOperators__wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.operator {
+  flex: 1 1 200px;
+  height: 40px;
+  background-color: rgb(244, 248, 252);
+}
+
+.operator:last-child {
+  background-color:orange;
+}
+
+.numbers__wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+}
+
+.number {
+  flex: 1 1 200px;
+  height: 50px;
+  background-color: lightgrey;
+}
+
+

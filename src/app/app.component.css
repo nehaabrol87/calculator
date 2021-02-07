@@ -1,0 +1,19 @@
+.app__wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  border: 2px solid grey;
+}
+
+.app-display__wrapper {
+  padding: 5px;
+  flex: 1 0 50px;
+  max-height: 50px;
+}
+
+.app-choices__wrapper {
+  padding: 5px;
+  flex-grow: 2;
+  flex-shrink: 0;
+  max-height: 400px;
+}

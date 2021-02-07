@@ -1,0 +1,9 @@
+<div class="operators__wrapper">
+  <button (click)="onOperatorPress(operator)" class="operator" *ngFor="let operator of operators">{{operator}}</button>
+</div>
+
+<div  class="numbers__wrapper">
+  <button  (click)="onOperandPress(operand)" *ngFor="let operand of operands" class="number">{{operand}}</button>
+</div>
+
+
